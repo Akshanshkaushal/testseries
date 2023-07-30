@@ -1,0 +1,27 @@
+.column1BrahamastraBox{
+    display:flex;justify-items: center;flex-direction: column;gap:2rem;
+}
+
+.brahamastra{
+    text-align: center;font-weight: 800;
+    font-family: lato-bold;font-size: 3rem; color:  #003733;
+     
+}
+.penpaper{
+    
+}
+.brahmastraBox{
+    display: flex;
+    gap:4rem;
+    margin-left: 6rem;
+    margin-top: 3.5rem;
+
+}
+
+
+
+
+
+
+
+

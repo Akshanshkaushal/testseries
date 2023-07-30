@@ -1,0 +1,85 @@
+
+
+.target .recomended .start .active .mode .medium{
+    display: flex;line-height: 1.9;
+    font-family: lato;font-weight: 700;
+}
+/* 
+@font-face {
+    font-family: lato;
+    src: url('../fonts/KoPubBatang-Light.ttf');
+} */
+@font-face {
+    font-family: lato-bold;
+    src: url('../fonts/Lato-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: montserrat-regular;
+    src: url('../fonts/Montserrat-Regular.ttf');
+}
+
+* {
+    margin: 0;
+}
+
+
+ul li {
+    font-size: 1.4rem;
+    display: inline-block;
+    font-family: lato;
+
+}
+
+
+
+
+
+.courseObjective{
+    display: flex;
+    gap:2rem;
+    flex-direction: column;
+
+    width: 65vw;
+    flex: 1 0 auto;
+    font-family: lato-bold;
+    font-weight: 700;
+    font-size: 2.2rem;
+}
+ 
+
+ 
+.courseDetails{
+    font-family:  montserrat-regular;
+    font-weight:400 ;
+   font-size: 1.2rem;
+}
+.headingCourseFeature{
+    font-family: lato;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.features {
+    font-family: montserrat-regular ;
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 2.3rem;
+}
+.courseFeature{
+    margin-top: 8vh;
+    padding-left: 6rem;
+}
+.column1BrahamastraBox{
+    align-items: center;
+}
+.getEnrolled{
+   
+    padding-top: 6.7vh;
+}
+.freeSpace{
+height: 40vh;
+}
+.downloadSchedule{
+    color:  #3AA299;
+    font-size: 1.5rem;
+}
