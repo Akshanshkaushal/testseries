@@ -16,6 +16,7 @@ import './App.css';
 import SignUp from './components/Signup';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import ComingSoon from './components/comingSoon';
+import Inspiring_stories from './components/Inspiring_stories';
 
 function App() {
   return (
@@ -84,7 +85,7 @@ function App() {
         }/>
 
 <Route path="inspiring_stories" element={
-          <ComingSoon/>
+          <Inspiring_stories/>
         }/>
 
 <Route path="community" element={
