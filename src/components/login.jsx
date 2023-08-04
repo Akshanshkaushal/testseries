@@ -1,7 +1,7 @@
  
 import React from 'react';
 import './Login.css'; 
-import { continuegoogle, loginpic} from './images';
+import { continuegoogle, loginpic} from './images/index';
 import Footer from './footer';
 import Navbar from './Navbar';
 import { Link } from 'react-router-dom';
@@ -30,7 +30,9 @@ const Login = () => {
               <input type="password" id="password" className="form-control" placeholder="Enter your password" />
                </div>
                <p id="forgotPassword">forgot password?</p>
-            <button type="submit" className="btn btn-primary">Login</button>
+               <div className='container align-items-center'>
+            <button type="submit" className="btn btn-primary ">Login</button>
+            </div>
             <br/>
             <hr id="horizontalLine"/>
            <br/>

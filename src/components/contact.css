@@ -1,0 +1,42 @@
+.form-group{
+    background-color: aliceblue;
+    text-align: left;
+}
+
+.heading{
+    font-weight: bold;
+}
+.containingall{
+    margin:5%;
+}
+.form{
+    
+}
+.email-1{
+    text-decoration: solid;
+    font-size: large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:2%
+}
+button{
+    background-color: orange;
+    height: 2rem;
+    width: 8rem;
+    font-weight: 500;
+    margin-left:40% ;
+    
+}
+.input{
+    margin-left: 3%;
+    border-radius: 6%;
+}
+.info{
+    font-family:cursive;
+    font-size:xx-large
+}
+.containingall{
+    background-color: rgb(240, 237, 237);
+}
+span{
+    font-weight: bold;
+}

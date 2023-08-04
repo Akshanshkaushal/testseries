@@ -17,17 +17,42 @@ import SignUp from './components/Signup';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import ComingSoon from './components/comingSoon';
 import Inspiring_stories from './components/Inspiring_stories';
+import Footer from './components/footer';
+import Home from "./components/Home"
+import ContactForm from "./components/Contact"
 
 function App() {
   return (
     <div>
     <BrowserRouter>
     <Routes>
-      <Route path="soon" element={
-        <ComingSoon/>
+    <Route
+      path="/" element={
+        <>
+          <Navbar/>
+          <Home/>
+          <Footer/>
+        </>
+      }
+    />
+
+      <Route path="/community" element={
+        <>
+        <Navbar/>
+          <ComingSoon/>
+        </>
         } />
- 
+      <Route
+        path="/contact" element={
+          <>
+            <Navbar/>
+            <ContactForm/>
+            <Footer/>
+          </>
+        }
+      />
         <Route path="Login" element={ 
+          
           <Login/>
         }/>
 

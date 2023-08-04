@@ -1,7 +1,7 @@
  
 import React from 'react';
 import './Login.css'; 
-import { continuegoogle, loginpic} from './images';
+import { continuegoogle, loginpic} from './images/index';
 import Footer from './footer';
 import Navbar from './Navbar';
 
@@ -46,8 +46,11 @@ const SignUp = () => {
            <br/>
             <img src={continuegoogle} alt="continue with google" id="contWithGoogle"></img>
             <br/><br/>
-            <div>Already have an account? 
-            <button type="submit" className="btn btn-primary">Login</button>
+            <div>Already have an account?  
+            <button type="submit" className="btn btn-primary"> 
+             Login
+            </button>
+            
             </div> 
           </form>
           

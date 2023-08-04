@@ -1,35 +1,75 @@
 import logo from "./logo 3 transparent 2.png";
-import KAWACH from "./priceKawach.png";
-import brahamastra from "./price.png";
+
 import penpaper from "./penpaper.png"
-import pricepyq_1 from "./pricePyq1.png";
-import pricepyq_2 from "./pricePyq2.png";
-import pyodha_1 from "./priceYodha1.png";
-import pyodha_2 from "./priceYodha2.png";
-import psarthi_1 from "./priceSaarthi1.png"
-import psarthi_2 from "./priceSaarthi2.png"
-import samarpan_1 from "./priceSamarpan1.png"
-import samarpan_2 from "./priceSamarpan2.png"
-import pparambh from "./pricePrarambh.png";
+
 import getenrolled from "./get enrolled.png";
 import loginpic from "./loginPhoto.png";
 import continuegoogle from "./cont with google.png"
 import comingsoon from "./comingsoon.jpg";
+import banner from "./banners/banner 1 (2).png";
+import banner1 from "./banners/banner 2.png";
+import banner2 from "./banners/banner 3.png";
+import banner3 from "./banners/banner 4.png";
+import banner4 from "./banners/banner 5.png";
+import banner5 from "./banners/banner 6.png";
+import arrow from "./arrow.png"
+import quote from "./QUOTE AND PER DAY THINGS (2).png"
+import brahamastra from "./coursesNew/BRAHMASTRA (1).png";
+import kawach from "./coursesNew/KAWACH (1).png";
+import prarambh from "./coursesNew/prarambh 1.png"
+import prarambh2 from "./coursesNew/prarambh 2.png"
+import pyq1 from "./coursesNew/pyq 1.png"
+import pyq2 from "./coursesNew/pyq 2.png"
+import samarpan from "./coursesNew/samarpan 1 (1).png";
+import samarpan2 from "./coursesNew/samarpan 2 (1).png";
+import sarthi from "./coursesNew/SARTHI 1 (1).png";
+import sarthi2 from "./coursesNew/samarpan 2 (1).png";
+import yodha from "./coursesNew/yodha 1.png";
+import yodha2 from "./coursesNew/yodha 2.png";
+import test from "./TEST INTERFACE.png";
+import analysis from "./analysis.png";
+import vidsoln from "./video solution (1).png"
 
+
+
+
+
+
+
+
+export {
+    test,
+    analysis,
+    vidsoln,
+    quote,
+    arrow,
+    banner,
+    banner1,
+    banner2,
+    banner3,
+    banner4,
+    banner5,
+    brahamastra,
+    kawach,
+    prarambh,
+    prarambh2,
+    pyq1,
+    pyq2,
+    samarpan,
+    samarpan2,
+    sarthi,
+    sarthi2,
+    yodha,
+    yodha2,
+
+
+    
+};
 export{
     logo,
-    KAWACH,
-    brahamastra,
+   
     penpaper,
-    pparambh,
-    pricepyq_1,
-    pricepyq_2,
-    pyodha_1,
-    pyodha_2,
-    psarthi_1,
-    psarthi_2,
-    samarpan_1,
-    samarpan_2,
+    
     getenrolled,
     loginpic,
     continuegoogle,
